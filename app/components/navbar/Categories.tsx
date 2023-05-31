@@ -20,9 +20,9 @@ import Container from "../Container"
 
 export const categories = [
   {
-    label: "Beach",
-    icon: TbBeach,
-    description: "This Thinnai is close to the beach!",
+    label: "Movie Buff",
+    icon: BiCameraMovie,
+    description: "This Thinnai is equipped with a movie screen.",
   },
   {
     label: "Modern",
@@ -42,11 +42,6 @@ export const categories = [
       "This Thinnai is inside; perfect if its hot and sunny outside!",
   },
   {
-    label: "Pools",
-    icon: TbPool,
-    description: "This Thinnai has a beautiful pool; dive and splash!",
-  },
-  {
     label: "Lux",
     icon: IoDiamond,
     description: "This Thinnai is brand new and luxurious!",
@@ -57,15 +52,21 @@ export const categories = [
     description: "This Thinnai doesn't make a hole in your pocket!",
   },
   {
+    label: "Pools",
+    icon: TbPool,
+    description: "This Thinnai has a beautiful pool; dive and splash!",
+  },
+  {
+    label: "Beach",
+    icon: TbBeach,
+    description: "This Thinnai is close to the beach!",
+  },
+  {
     label: "Cloud 9",
     icon: BsArrowThroughHeart,
     description: "This Thinnai is on Love!",
   },
-  {
-    label: "Movie Buff",
-    icon: BiCameraMovie,
-    description: "This Thinnai is equipped with a movie screen.",
-  },
+
   {
     label: "Camping",
     icon: GiForestCamp,
